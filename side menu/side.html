@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styler.css">
+    <title>navigation bar</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class = "menutoggle"></div>
+    </div>
+    
+    <script>
+        const menutoggle = document.querySelector('.menutoggle');
+        const navigation = document.querySelector('.navigation');
+        menutoggle.onclick = function()
+        {
+            navigation.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>
